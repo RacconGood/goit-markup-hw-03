@@ -30,7 +30,7 @@ p {
   margin-bottom: 0;
   margin-top: 0;
 }
-.cont{
+.container{
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -38,7 +38,7 @@ p {
 }
 .header {
   color: #4d5ae5;
-  
+  border-bottom: 1px solid #e7e9fc
 }
 .body {
   font-family: "Roboto", sans-serif;
