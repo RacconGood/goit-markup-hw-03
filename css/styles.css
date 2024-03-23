@@ -39,7 +39,7 @@ p {
 .header {
   color: #4d5ae5;
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
+  
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -56,6 +56,7 @@ p {
 .header-cont{
   display: flex;
   text-align: center;
+  padding: 24px 0;
 }
 .address {
   flex-grow: 1;
