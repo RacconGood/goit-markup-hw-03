@@ -38,7 +38,8 @@ p {
 }
 .header {
   color: #4d5ae5;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -111,7 +112,7 @@ p {
   font-style: normal;
 }
 .contact-list {
-  gap: 108px;
+  gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
   text-align: center;
