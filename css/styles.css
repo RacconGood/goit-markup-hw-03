@@ -49,6 +49,7 @@ p {
 .nav {
   display: flex;
   align-items: center;
+  padding: 24px 0
 }
 .header-cont{
   display: flex;
@@ -63,7 +64,7 @@ p {
   align-items: center;
   font-style: normal;
   justify-content: flex-end;
-  padding: 24px 0
+  
 }
 
 .nav-logo {
