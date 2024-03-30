@@ -326,12 +326,12 @@ p {
   color: #f4f4fd;
 }
 .ourportfolio {
+  padding: 120px 0 120px 0
 }
 .ourportfolio-cont{
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .ourportfolio-title {
+  margin-bottom: 72px;
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
@@ -340,7 +340,6 @@ p {
   color: #2e2f42;
 }
 .ourportfolio-list {
-  margin-top: 72px;
   display: flex;
   gap: 48px 24px;
   flex-wrap: wrap;
@@ -357,12 +356,12 @@ p {
 
 .ourportfolio-cont-two{
   text-align: left;
-  padding-left: 16px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   }
 
 .ourportfolio-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
