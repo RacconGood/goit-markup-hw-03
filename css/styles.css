@@ -243,6 +243,7 @@ p {
   padding-bottom: 120px;
 }
 .ourteam {
+  margin-bottom: 8px;
   margin-bottom: 72px;
   text-transform: capitalize;
   font-weight: 700;
@@ -259,6 +260,7 @@ p {
 
 }
 .ourteam-list {
+  width: calc((100% - 72px) / 4);
   margin-top: 72px;
   display: flex;
   text-align: center;
