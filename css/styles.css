@@ -214,6 +214,7 @@ p {
 }
 
 .headline-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -253,7 +254,10 @@ p {
 .ourteam-cont{
  
 }
+.ourteam-text-cont{
+  padding: 32px 0;
 
+}
 .ourteam-list {
   margin-top: 72px;
   display: flex;
@@ -276,7 +280,6 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
 }
 
 .ourteam-item-text {
@@ -285,7 +288,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
 }
 
 /*====================Footer======================*/
