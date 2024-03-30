@@ -32,8 +32,7 @@ p {
 }
 .container{
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  
   margin: 0 auto;
 }
 .header {
@@ -48,8 +47,6 @@ p {
 }
 /*?======================NAV===============*/
 .nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   align-items: center;
 }
@@ -57,6 +54,9 @@ p {
   display: flex;
   text-align: center;
   padding: 24px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 .address {
   flex-grow: 1;
@@ -114,8 +114,6 @@ p {
 }
 .contact-list {
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   text-align: center;
   align-items: center;
   display: flex;
@@ -137,6 +135,8 @@ p {
 
 .main-sect {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-text {
@@ -149,11 +149,11 @@ p {
   color: #fff;
 }
 .main-text-cont{ 
-  padding-top: 188px;
-  padding-bottom: 188px;
+  
 }
 
 .main-button {
+  margin: 0 auto;
   text-align: center;
   border: none;
   display: block;
@@ -161,7 +161,7 @@ p {
   margin-top: 48px;
   border-radius: 4px;
   width: 169px;
-height: 56px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   background: #4d5ae5;
@@ -171,6 +171,7 @@ height: 56px;
   letter-spacing: 0.04em;
   color: #fff;
   
+  
 }
 .main-button:hover,
 .main-button:focus {
@@ -178,12 +179,26 @@ height: 56px;
 }
 
 /*====================Headline======================*/
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .headline-cont{
-  padding-top: 120px;
-  padding-bottom: 120px;
+ 
  
 }
 .headline {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .headline-list {
@@ -193,7 +208,7 @@ height: 56px;
 }
 
 .headline-item {
-  width: calc((100% -24px * 3) / 4);
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .headline-subtitle {
@@ -221,8 +236,11 @@ height: 56px;
 .ourteam-main {
   text-align: center;
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .ourteam {
+  margin-bottom: 72px;
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
@@ -231,8 +249,7 @@ height: 56px;
   color: #2e2f42;
 }
 .ourteam-cont{
-  padding-top: 120px;
-  padding-bottom: 120px;
+ 
 }
 
 .ourteam-list {
@@ -243,6 +260,7 @@ height: 56px;
 }
 
 .ourteam-item {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
