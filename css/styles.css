@@ -68,7 +68,7 @@ p {
 }
 
 .nav-logo {
-  padding: 24px 0;
+  
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -94,6 +94,7 @@ p {
 }
 
 .nav-link {
+  padding: 24px 0;
   display: flex;
   font-weight: 500;
   font-size: 16px;
@@ -358,10 +359,10 @@ p {
 }
 
 .ourportfolio-cont-two{
-  border-top: none;
   text-align: left;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
   }
 
 .ourportfolio-subtitle {
